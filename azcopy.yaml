@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: azcopy-pod
+  labels:
+    app: azcopy
+spec:
+  containers:
+  - name: azcopy
+    image: ubuntu
+    command: [ "sleep", "infinity" ]
+    volumeMounts:
+    - mountPath: "/mnt/share"
+      name: share-volume
+  volumes:
+  - name: share-volume
+    emptyDir: {}
