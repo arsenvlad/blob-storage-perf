@@ -72,6 +72,14 @@ Upload
 Download
 ![c](/images/premiumzrs-download.png)
 
+## Premium Metrics
+
+1-minute granularity
+
+![egress](/images/premiumzrs-metrics-egress.png)
+![tps](/images/premiumzrs-metrics-tps.png)
+![latency](/images/premiumzrs-metrics-latency.png)
+
 ### Standard_ZRS
 
 Upload
@@ -80,3 +88,9 @@ Upload
 
 Download
 ![f](/images/standardzrs-download.png)
+
+## Standard Metrics
+
+![egress](/images/standardzrs-metrics-egress.png)
+![tps](/images/standardzrs-metrics-tps.png)
+![latency](/images/standardzrs-metrics-latency.png)
